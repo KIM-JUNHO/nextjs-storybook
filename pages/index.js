@@ -1,5 +1,9 @@
-import { Button } from 'components/atoms/Button';
+import { Button, Label } from 'components';
 
-const Index = () => <Button>Hello NextJS</Button>;
+const Index = () => (
+  <Button>
+    <Label>Hello NextJS</Label>
+  </Button>
+);
 
 export default Index;
